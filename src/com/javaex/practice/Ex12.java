@@ -12,7 +12,7 @@ public class Ex12 {
 		
 		
 		for(int i = num; i >= 1; i--) {
-			sum = sum * i; // sum = sum * num
+			sum *= i; // sum = sum * i
 			
 		}System.out.println("sum :" + sum);
 		
